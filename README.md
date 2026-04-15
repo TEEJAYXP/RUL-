@@ -53,8 +53,6 @@ The final output is a **deployable web app** where users can upload sensor data 
 ├── requirements.txt       # Dependencies
 ├── .streamlit/
 │   └── config.toml        # App configuration (upload limits, etc.)
-└── notebooks/
-    └── RUL_MODEL_EDA.ipynb  # Exploratory Data Analysis
 ```
 
 ---
