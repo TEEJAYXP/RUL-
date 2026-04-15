@@ -158,4 +158,3 @@ Feel free to fork the repo and submit a pull request.
 ## 👤 Author
 
 **TEEJAY XP**
-Mechatronics Engineer
