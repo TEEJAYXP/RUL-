@@ -4,7 +4,3 @@ numpy
 joblib
 plotly
 scikit-learn
-
-[server]
-maxUploadSize = 3072
-maxMessageSize = 4096
