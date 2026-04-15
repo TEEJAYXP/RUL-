@@ -146,17 +146,17 @@ def build_rul_chart(df: pd.DataFrame) -> go.Figure:
         hovertemplate="<b>%{x}</b><br>RUL: %{y:.2f}<extra></extra>",
     ))
 
-    # Critical threshold line at 10th percentile
-    threshold = float(np.percentile(rul, 10))
-    fig.add_hline(
-        y=threshold,
-        line_dash="dash",
-        line_color="#E74C3C",
-        line_width=1.5,
-        annotation_text=f"Low RUL threshold ({threshold:.1f})",
-        annotation_position="top right",
-        annotation_font_color="#E74C3C",
-    )
+    # # Critical threshold line at 10th percentile
+    # threshold = float(np.percentile(rul, 10))
+    # fig.add_hline(
+    #     y=threshold,
+    #     line_dash="dash",
+    #     line_color="#E74C3C",
+    #     line_width=1.5,
+    #     annotation_text=f"Low RUL threshold ({threshold:.1f})",
+    #     annotation_position="top right",
+    #     annotation_font_color="#E74C3C",
+    # )
 
     fig.update_layout(
         template="plotly_dark",
